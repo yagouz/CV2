@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+ul.menu-links li a,
+a.go-home {
+    display: inline-block;
+    margin: 0px auto;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+ul.menu-links {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-media-buttons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media-buttons img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.mi-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 1px #008cff
+}
+
+.social-icon {
+    width: 100px;
+
+}
+
+a.go-home {
+    float: right;
+    margin-right: 20px;
+}
+
+.go-home-container {
+    width: 100%;
+    display: inline-block;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.myDiploma {
+    display: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#hide {
+    display: none;
+}
+
